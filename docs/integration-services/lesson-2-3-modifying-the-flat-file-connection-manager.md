@@ -25,20 +25,22 @@ By modifying the connection manager to use the value of the user-defined variabl
 ### To configure the Flat File connection manager to use a variable for the connection string  
   
 1.  In the **Connection Managers** pane, right-click **Sample Flat File Source Data**, and select **Properties**.  
+
+2.  In the **Connection Managers** pane, once again right-click **Sample Flat File Source Data**, and select **Convert to Package Connection**.
   
-2.  In the Properties window, for **Expressions**, click in the empty cell, and then click the ellipsis button **(…)**.  
+3.  In the Properties window, for **Expressions**, click in the empty cell, and then click the ellipsis button **(…)**.  
+ 
+4.  In the **Property Expressions Editor** dialog box, in the **Property** column, type or select **ConnectionString**.  
   
-3.  In the **Property Expressions Editor** dialog box, in the **Property** column, type or select **ConnectionString**.  
+5.  In the **Expression** column, click the ellipsis button **(…)** to open the **Expression Builder** dialog box.  
   
-4.  In the **Expression** column, click the ellipsis button **(…)** to open the **Expression Builder** dialog box.  
+6.  In the **Expression Builder** dialog box, expand the **Variables** node.  
   
-5.  In the **Expression Builder** dialog box, expand the **Variables** node.  
+7.  Drag the variable, **User::varFileName**, into the **Expression** box.  
   
-6.  Drag the variable, **User::varFileName**, into the **Expression** box.  
+8.  Click **OK** to close the **Expression Builder** dialog box.  
   
-7.  Click **OK** to close the **Expression Builder** dialog box.  
-  
-8.  Click **OK** again to close the **Property Expressions Editor** dialog box.  
+9.  Click **OK** again to close the **Property Expressions Editor** dialog box.  
   
 ## Next Lesson Task  
 [Step 4: Testing the Lesson 2 Tutorial Package](../integration-services/lesson-2-4-testing-the-lesson-2-tutorial-package.md)  
